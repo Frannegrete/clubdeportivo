@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./Assets/img/Logo.jpeg" type="image/x-icon">
     <title>Nosotros</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel ="stylesheet" href="./Assets/css/style.css">
 </head>
 
 <body class="contenedor">
     <nav class="navbar">
+        <div class=" logo">
+            <img data-aos="flip-left" src="./Assets/img/Logo.jpeg" alt="logo">
+        </div>
         <ul>
             <li><a href="./index.html">Nosotros</a></li>
             <li><a href="./pages/directiva.html">Directiva</a></li>
@@ -51,19 +55,19 @@
         <h4>Proximas Actividades</h4>
         <div class="proximasActividades">
             <div> 
-                <img src="./Assets/img/evento1.jpg" alt="aniversario club 18 de junio">
+                <img data-aos="zoom-in-up" src="./Assets/img/evento1.jpg" alt="aniversario club 18 de junio">
                 <form action="./pages/contacto.html">
                     <button class="participar" type="submit">Participar</button>
                 </form>
             </div>
             <div>
-                <img src="./Assets/img/evento2.jpg" alt="cicletada familiar 10 de julio">
+                <img data-aos="zoom-in-up" src="./Assets/img/evento2.jpg" alt="cicletada familiar 10 de julio">
                 <form action="./pages/contacto.html">
                     <button class="participar" type="submit">Participar</button>
                 </form>
             </div>
             <div>
-                <img src="./Assets/img/evento3.jpg" alt="dia del niño 13 de agosto">
+                <img data-aos="zoom-in-up" src="./Assets/img/evento3.jpg" alt="dia del niño 13 de agosto">
                 <form action="./pages/contacto.html">
                     <button class="participar" type="submit">Participar</button>
                 </form>
@@ -80,5 +84,9 @@
         </div>
         <h5>©2022 creado por Francisca Negrete - todos los derechos reservados </h5>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>   
 </html>

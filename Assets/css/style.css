@@ -56,13 +56,18 @@ a {text-decoration: none;
     display: flex;
     align-items:flex-end;
     background-color: whitesmoke;
-    justify-content: end
+    justify-content: space-between;
 }
 
 .headerIndex img {
     display: block; 
     margin: auto;  
 }
+
+.logo img {
+    width: 64px;
+    margin-left: 8px;}
+
 
 .info {
     background-color: whitesmoke;
