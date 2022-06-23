@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/img/Logo.jpeg" type="image/x-icon">
+    <title>Contacto</title>
+    <link rel ="stylesheet" href="../Assets/css/style.css" >
+
+</head>
+<body class="contenedor">    
+    <nav class= "navbarContact">
+        <ul> 
+            <li><a href="../index.html">Nosotros</a></li>
+            <li><a href="./directiva.html">Directiva</a></li>
+            <li><a href="./actividades.html">Actividades</a></li>
+            <li><a href="./galeria.html">Galería</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header class="headerContact">
+        <h1>Club Deportivo Jardín Oriente</h1>
+    </header>
+    
+    <main class = "formulario" > 
+        <form action="contacto.php" method="get">
+            <h2 class="contactanosTxt">Contáctanos</h2>
+            <input class= "info" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+            <input class= "info" type="number" name="telefono" id="telefono" placeholder="Ingrese su teléfono" required>
+            <input class= "info" type="text" name="mail" id="mail" placeholder="Ingrese su mail">
+            <textarea name="comentario" id="comentario" cols="30" rows="10">Ingrese su consulta o comentario </textarea>
+            <input class="boton" type="submit" value="Enviar">
+            <input class= "boton" type="reset" value="Resetear">
+        </form>
+    </main>
+    <aside class="ubicacion">
+        <H2>Ubicación</H2>
+        <h4>Llantén 1900, Jardín Oriente, Puerto Montt</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11962.705444678097!2d-72.93328747707768!3d-41.446243583873134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96183aeb6da7805f%3A0xd3c5b963f9548ddf!2sLlant%C3%A9n%201900%2C%20Puerto%20Montt%2C%20Los%20Lagos!5e0!3m2!1ses-419!2scl!4v1653675797035!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </aside>
+
+    <footer class="footerContact">
+        <div class="redes">
+            <a href="https://www.facebook.com/pages/category/Sports-Club/Club-Deportivo-Jard%C3%ADn-Oriente-515777058958218"> <img class= "facebook" src= "../Assets/img/logoFacebook.png" alt= "enlace a facebook"/>
+            </a> 
+            <a href="https://instagram.com/clubdeportivojardinoriente2019?igshid=YmMyMTA2M2Y="> <img class= "instagram" src= "../Assets/img/logoInstagram.png" alt= "enlace a instagram"/>
+            </a></div> 
+        
+        <h5>©2022 creado por Francisca Negrete - todos los derechos reservados </h5>
+    </footer>   
+</body>
+</html>
