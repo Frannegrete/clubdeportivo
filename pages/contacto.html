@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="./Assets/img/Logo.jpeg" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+                <img src="../Assets/img/Logo.jpeg" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Club</a>
+                        <a class="nav-link" href="../index.html">Club</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./directiva.html">Directiva</a>
@@ -34,7 +34,7 @@
                         <a class="nav-link" href="./galeria.html">Galería</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                        <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -46,22 +46,25 @@
         <h1>Club Deportivo Jardín Oriente</h1>
     </header>
     
-    <main class = "formulario" > 
-        <form action="contacto.php" method="get">
-            <h2 class="contactanosTxt">Contáctanos</h2>
-            <input class= "info" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
-            <input class= "info" type="number" name="telefono" id="telefono" placeholder="Ingrese su teléfono" required>
-            <input class= "info" type="text" name="mail" id="mail" placeholder="Ingrese su mail">
-            <textarea name="comentario" id="comentario" cols="30" rows="10">Ingrese su consulta o comentario </textarea>
-            <input class="boton" type="submit" value="Enviar">
-            <input class= "boton" type="reset" value="Resetear">
-        </form>
+    <main class="row justify-content-center"> 
+        <div class="formulario col-10 col-md-5">
+            <form action="contacto.php" method="get">
+                <h2 class="contactanosTxt">Contáctanos</h2>
+                <input class= "info" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+                <input class= "info" type="number" name="telefono" id="telefono" placeholder="Ingrese su teléfono" required>
+                <input class= "info" type="text" name="mail" id="mail" placeholder="Ingrese su mail">
+                <textarea name="comentario" id="comentario" cols="30" rows="10">Ingrese su consulta o comentario </textarea>
+                <input class="boton" type="submit" value="Enviar">
+                <input class= "boton" type="reset" value="Resetear">
+            </form>
+        </div>
+    
+        <div class="ubicacion col-10 col-md-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11962.705444678097!2d-72.93328747707768!3d-41.446243583873134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96183aeb6da7805f%3A0xd3c5b963f9548ddf!2sLlant%C3%A9n%201900%2C%20Puerto%20Montt%2C%20Los%20Lagos!5e0!3m2!1ses-419!2scl!4v1653675797035!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <H3>Ubicación</H3>
+            <h4>Llantén 1900, Jardín Oriente, Puerto Montt</h4>
+        </div>
     </main>
-    <aside class="ubicacion">
-        <H2>Ubicación</H2>
-        <h4>Llantén 1900, Jardín Oriente, Puerto Montt</h4>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11962.705444678097!2d-72.93328747707768!3d-41.446243583873134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96183aeb6da7805f%3A0xd3c5b963f9548ddf!2sLlant%C3%A9n%201900%2C%20Puerto%20Montt%2C%20Los%20Lagos!5e0!3m2!1ses-419!2scl!4v1653675797035!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </aside>
 
     <footer class="footerContact">
         <div class="redes">
@@ -71,6 +74,7 @@
             </a></div> 
         
         <h5>©2022 creado por Francisca Negrete - todos los derechos reservados </h5>
-    </footer>   
+    </footer>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
 </body>
 </html>
