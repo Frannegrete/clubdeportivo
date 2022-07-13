@@ -1,32 +1,34 @@
 
+@mixin propiedades ($alineacion, $tamanio){
+    text-align: $alineacion;
+    font-size: $tamanio;
+}
+    
+
+
 h1 {
-    color: $colorprincipal;
-    text-align: center;
-    font-size: 60px;
+    @include propiedades(center, 60px);
+    color: map-get($colores , principal);
     margin-bottom: 60px;
 }
 h2 {
-    color: $colorsecundario;
-    font-size: 45px;
-    text-align: center;
+    @include propiedades(center, 45px);
+    color: map-get($colores , secundario);
     margin-bottom: 60px;
 }
 h4 {
-    color:  $colorsecundario;
-    font-size: 30px;
-    text-align: center;
+    color: map-get($colores , secundario);
+    @include propiedades(center, 30px);
 }
 
 h3{ 
-    color: $colorsecundario;
-    font-size: 32px;
-    text-align: center;
+    color: map-get($colores , secundario);
+    @include propiedades(center, 32px);
 }
 
 h5 {
+    color: map-get($colores , principal);
+    @include propiedades(center, 15px); 
     margin-top: 10px;
-    text-align: center;
-    gap: 20px;
-    color:$colorprincipal;
-    font-size: 15px;
+    gap: 20px; 
 }

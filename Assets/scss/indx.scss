@@ -6,15 +6,19 @@
         text-align: center;
     } 
 }
+
+
 .btn-primary{
-    display: block;
-    margin: auto;
-    background-color:$colorprincipal;
-    border-color: $colorprincipal;
+    display: map-get($btn-primary , display);
+    margin: map-get($btn-primary , margen ); 
+    border: map-get($btn-primary , bordes );
+    background-color: map-get($colores , principal);
+    border-color: map-get($colores , principal);
     } 
 
+
 .headerIndex img {
-    display: block; 
+    display: block;
     margin: auto;  
     } 
 .imagenHeader{margin-bottom: 60px;}
