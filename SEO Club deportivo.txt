@@ -1,0 +1,22 @@
+﻿En el proyecto del Club deportivo Jardín Oriente sumé el SEO con las siguientes características:
+ 
+Descripción: mediante la etiqueta meta name description, agregué un pequeño párrafo que explica el contenido del sitio, siendo cada descripción diferente para cada página e index., quedando de la siguiente forma:
+
+
+Index: "Conoce el Club Deportivo Jardín Oriente, nuestra visión, valores y próximos eventos a los que puedes participar"
+ 
+Directiva: ”Conoce a la directiva del club”
+ 
+Actividades "Participa de nuestras actividades de zumba y fitball, anímate a ser parte de nuestra comunidad"
+ 
+Galería: “Revisa las imágenes de nuestras últimas actividades”
+ 
+Contacto: “Escribe tus dudas y comentarios, conoce donde estamos ubicados”
+ 
+ Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "club, deporte, Puerto Montt, zumba"
+ 
+Alt en imágenes: se agrega descripción de las imágenes que no lo tenían en galería y se edita texto sobre imágenes para que sea más detallado e incluya palabras claves.
+ 
+Título: Se modifica el “title” de algunas paginas por ejemplo en la página de directiva, se coloca “directiva del club” reemplazando “directiva”, en index se colocó “club deportivo” en lugar de “nosotros”
+ 
+·        Resaltado de algunas palabras claves en el contenido del index usando la etiqueta <strong></strong>
