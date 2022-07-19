@@ -27,8 +27,8 @@ h3{
 }
 
 h5 {
-    color: map-get($colores , principal);
+    color: map-get($colores , negro);
     @include propiedades(center, 15px); 
-    margin-top: 10px;
+    // margin-top: 10px;
     gap: 20px; 
 }
