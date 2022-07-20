@@ -1,10 +1,19 @@
 .formulario{
+    
     text-align: center;
-    width: 450px;
     background-color: map-get($colores , fondo);
     padding: 20px;
     border-radius: 20px;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
 
 .info{
     color: map-get($colores , secundario);
@@ -19,8 +28,11 @@
     font-size: 15px;
     text-align: center;
     padding-top: 5%;
-    display: block;
-    margin: auto;
+    // display: block;
+    // margin: 0 auto;
+    width: 100%;
+
+
 }
 
 .boton {
@@ -30,3 +42,13 @@
     padding: 1%;
     margin-top: 4%;
     color: white;}
+
+.ubicacion {
+    width: 100%;
+
+}
+.contenedorUbi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
