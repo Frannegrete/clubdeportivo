@@ -1,0 +1,24 @@
+.card {
+    align-content: center;
+    text-align: justify;
+    border: 20px;;
+        .card-title {
+        text-align: center;
+    } 
+}
+
+
+.btn-primary{
+    display: map-get($btn-primary , display);
+    margin: map-get($btn-primary , margen ); 
+    border: map-get($btn-primary , bordes );
+    background-color: map-get($colores , principal);
+    border-color: map-get($colores , principal);
+    } 
+
+
+.headerIndex img {
+    display: block;
+    margin: auto;  
+    } 
+.imagenHeader{margin-bottom: 60px;}
