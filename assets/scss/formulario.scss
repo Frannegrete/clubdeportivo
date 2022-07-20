@@ -1,0 +1,32 @@
+.formulario{
+    text-align: center;
+    width: 450px;
+    background-color: map-get($colores , fondo);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.info{
+    color: map-get($colores , secundario);
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 1%;  
+} 
+
+#comentario {
+    color: map-get($colores , secundario);
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5%;
+    display: block;
+    margin: auto;
+}
+
+.boton {
+    @extend.btn-primary;
+    font-size: 15px;
+    text-align: center;
+    padding: 1%;
+    margin-top: 4%;
+    color: white;}
