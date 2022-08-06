@@ -13,8 +13,6 @@ form{
     margin: 0 auto;
 }
 
-
-
 .info{
     color: map-get($colores , secundario);
     font-size: 15px;
@@ -28,8 +26,6 @@ form{
     font-size: 15px;
     text-align: center;
     padding-top: 5%;
-    // display: block;
-    // margin: 0 auto;
     width: 100%;
 
 
@@ -41,7 +37,8 @@ form{
     text-align: center;
     padding: 1%;
     margin-top: 4%;
-    color: white;}
+    color: white;
+    width:60%;}
 
 .ubicacion {
     width: 100%;

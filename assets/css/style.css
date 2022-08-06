@@ -84,7 +84,8 @@ form {
   text-align: center;
   padding: 1%;
   margin-top: 4%;
-  color: white; }
+  color: white;
+  width: 60%; }
 
 .ubicacion {
   width: 100%; }
